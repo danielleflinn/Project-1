@@ -1,6 +1,10 @@
 
 body {
-   background-color: lightskyblue;
+    display: block;
+    width: 70%;
+    margin: auto;
+    background-color: lightskyblue;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -14,19 +18,37 @@ img.profileImage {
     float: left;
     margin-right: 20px;
     margin-bottom: 20px;
+}
 
+h1, h3, h4 {
+    font-family: 'Lora', serif;
 }
 
 h1 {
     font-size: 45pt;
-    padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    margin: -4px;
 }
 
-a {
-    color: darkorange;
-    
+header h3 {
+    font-size: 32px;
+    margin: -5px;
 }
+
+header h4, article h4 {
+    font-size: 18px;
+    margin: 0px;
+}
+
 article {
-    
+    margin: 40px;
+}
+
+aside {
+    float: left;
+    width: auto;
+    margin-right: 40px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+
 }
