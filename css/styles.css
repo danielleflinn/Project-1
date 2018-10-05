@@ -9,7 +9,7 @@ body {
 
 header {
     background-color: lightgray;
-    padding: 20px;
+    padding: 40px;
     margin: 20px;
 }
 
@@ -20,23 +20,28 @@ img.profileImage {
     margin-bottom: 20px;
 }
 
+div.facts {
+    margin-top: 10px;
+}
+
 h1, h3, h4 {
     font-family: 'Lora', serif;
 }
 
 h1 {
     font-size: 45pt;
-    margin: -4px;
+    margin: 0px;
 }
 
 header h3 {
     font-size: 32px;
-    margin: -5px;
+    margin-top: -5px;
+    margin-bottom: 15px;
 }
 
 header h4, article h4 {
-    font-size: 18px;
-    margin: 0px;
+    font-size: 20px;
+    margin: 5px;
 }
 
 article {
