@@ -1,6 +1,7 @@
 body {
     display: block;
     width: auto;
+    margin: auto;
     min-width: 420px;
     max-width: 1400px;
     background-color: lightskyblue;
@@ -10,7 +11,7 @@ body {
 header {
     background-color: lightgray;
     padding: 40px;
-    margin: 20px;
+    margin: 20px 20px 20px 20px;;
 }
 
 img.profileImage {
@@ -38,9 +39,9 @@ header h3 {
     margin-top: -5px;
 }
 
-header h4, article h4 {
+h4 {
     font-size: 20px;
-    margin: 5px, 5px, 5px, 0px;
+    line-height: 1.1;
 }
 
 #body {
@@ -49,17 +50,20 @@ header h4, article h4 {
 article {
     position: absolute;
     left: 27%;
-    width: 70%;
-    margin: 20px;
-    margin-left: 30px;
+    width: auto;
+    padding-right: 40px;
+    margin: 20px 20px 20px 30px;
 }
 
 aside {
     position: absolute;
     left: 3%;
-    top: 120px;
-    width: 25%;
+    top: 80px;
+    width: 20%;
     margin: 20px;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
 }
 
 a:link {
